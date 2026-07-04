@@ -2961,12 +2961,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A"
+		(symbol "PCM_SparkFun-Fuse:Fuse_Holder-Blade"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2974,7 +2975,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "F"
-				(at 0 2.54 0)
+				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2983,8 +2984,8 @@
 					)
 				)
 			)
-			(property "Value" "16V/2.5A/5.0A"
-				(at 0 -2.54 0)
+			(property "Value" "Blade Fuse"
+				(at 0 1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2993,19 +2994,8 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Fuse:1812"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
-				(at 1.016 -5.588 0)
+			(property "Footprint" "PCM_SparkFun-Fuse:Fuseholder_Automotive"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3015,8 +3005,8 @@
 					)
 				)
 			)
-			(property "Description" "Resettable fuse 2A"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p41.pdf"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3026,8 +3016,8 @@
 					)
 				)
 			)
-			(property "PROD_ID" "RES-14390"
-				(at 0 -10.16 0)
+			(property "Description" "Fuse"
+				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3037,7 +3027,17 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SparkFun resettable fuse PTC PPTC polyfuse polyswitch"
+			(property "PROD_ID" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun Blade Fuse Automotive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3048,7 +3048,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
+			(property "ki_fp_filters" "*Fuse*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3059,12 +3059,12 @@
 					)
 				)
 			)
-			(symbol "Fuse 16V/2.5A/5.0A_0_1"
+			(symbol "Fuse_Holder-Blade_0_1"
 				(rectangle
-					(start -1.905 0.635)
-					(end 1.905 -0.635)
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3073,10 +3073,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.27 -1.27) (xy 1.27 1.27) (xy 1.905 1.27)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3084,10 +3084,10 @@
 					)
 				)
 			)
-			(symbol "Fuse 16V/2.5A/5.0A_1_1"
+			(symbol "Fuse_Holder-Blade_1_1"
 				(pin passive line
 					(at -2.54 0 0)
-					(length 0.635)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -3105,7 +3105,7 @@
 				)
 				(pin passive line
 					(at 2.54 0 180)
-					(length 0.635)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -5755,12 +5755,6 @@
 		(uuid "56758daf-a9dc-4f98-aaa0-cf9d77e0f8db")
 	)
 	(junction
-		(at 35.56 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e320334-d094-47bc-8cfd-d0ad26f41aab")
-	)
-	(junction
 		(at 147.32 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5855,12 +5849,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f33c1b04-608e-4223-9b11-54cd9ceff66d")
-	)
-	(junction
-		(at 30.48 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6e183b6-2cd0-4fca-81ac-6e53b8f03bc6")
 	)
 	(junction
 		(at 100.33 85.09)
@@ -6086,16 +6074,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 137.16) (xy 30.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a84d2c-7064-47e1-8561-0e5ec39784c9")
-	)
-	(wire
-		(pts
 			(xy 85.09 90.17) (xy 97.79 90.17)
 		)
 		(stroke
@@ -6266,16 +6244,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 35.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e0fd3f-5255-48df-bdfa-a0ac92499dc4")
-	)
-	(wire
-		(pts
 			(xy 85.09 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -6313,16 +6281,6 @@
 			(type default)
 		)
 		(uuid "6b0d7d1b-1ecf-4571-a4e0-b59c6d9c7436")
-	)
-	(wire
-		(pts
-			(xy 30.48 132.08) (xy 30.48 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ef63a83-24bf-4064-95b8-fe340559ada7")
 	)
 	(wire
 		(pts
@@ -6683,16 +6641,6 @@
 			(type default)
 		)
 		(uuid "c210b60b-7bfc-4968-ad77-463c84a10e08")
-	)
-	(wire
-		(pts
-			(xy 35.56 132.08) (xy 35.56 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c33f15b9-e2b7-412e-8efe-a193baca10d5")
 	)
 	(wire
 		(pts
@@ -8002,97 +7950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A")
-		(at 33.02 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2177041c-e7c6-4d4f-9554-d1aa712fdedd")
-		(property "Reference" "F3"
-			(at 33.02 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16V/2.5A/5.0A"
-			(at 33.02 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Fuse:1812"
-			(at 33.02 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
-			(at 34.036 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse 2A"
-			(at 33.02 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-14390"
-			(at 33.02 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24e8e587-b247-4939-af09-d6931a6ad475")
-		)
-		(pin "2"
-			(uuid "fdc86bf2-cec0-4812-b9af-331047cefe2d")
-		)
-		(instances
-			(project "battlebot_board"
-				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 74.93 95.25 0)
 		(unit 1)
@@ -9015,97 +8872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A")
-		(at 33.02 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45954211-4205-4fde-8f87-f1f5d5ac627d")
-		(property "Reference" "F1"
-			(at 33.02 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16V/2.5A/5.0A"
-			(at 33.02 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Fuse:1812"
-			(at 33.02 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
-			(at 34.036 142.748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse 2A"
-			(at 33.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-14390"
-			(at 33.02 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3857eb77-1035-4d47-9d5a-d0d30d69738f")
-		)
-		(pin "2"
-			(uuid "ed21327f-413e-4f44-acba-c2af91a2d2e3")
-		)
-		(instances
-			(project "battlebot_board"
-				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
 		(at 213.36 64.77 0)
 		(unit 1)
@@ -9527,97 +9293,6 @@
 			(project "battlebot_board"
 				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A")
-		(at 33.02 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c83ed05-df27-4c8c-99eb-062f12a6d2c8")
-		(property "Reference" "F2"
-			(at 33.02 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16V/2.5A/5.0A"
-			(at 33.02 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Fuse:1812"
-			(at 33.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
-			(at 34.036 147.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse 2A"
-			(at 33.02 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-14390"
-			(at 33.02 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a69f9af9-2b07-4387-9a66-76788f8a0762")
-		)
-		(pin "2"
-			(uuid "ee3cbf1f-3303-4486-932f-159a86f4a20c")
-		)
-		(instances
-			(project "battlebot_board"
-				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
-					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -12363,6 +12038,96 @@
 			(project "battlebot_board"
 				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Fuse:Fuse_Holder-Blade")
+		(at 33.02 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6eb1609-e8a5-4de2-881f-84719f661847")
+		(property "Reference" "F4"
+			(at 33.02 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Blade Fuse"
+			(at 33.02 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Fuse:Fuseholder_Automotive"
+			(at 33.02 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p41.pdf"
+			(at 33.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 33.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 33.02 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ae64788-4d26-406d-bd37-b199678eb046")
+		)
+		(pin "1"
+			(uuid "a8b2f6db-e9e8-4b0f-b4c7-fa56d5c409ef")
+		)
+		(instances
+			(project "battlebot_board"
+				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
+					(reference "F4")
 					(unit 1)
 				)
 			)
