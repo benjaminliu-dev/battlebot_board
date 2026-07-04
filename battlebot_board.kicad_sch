@@ -2961,6 +2961,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "16V/2.5A/5.0A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Fuse:1812"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+				(at 1.016 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse 2A"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "RES-14390"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse 16V/2.5A/5.0A_0_1"
+				(rectangle
+					(start -1.905 0.635)
+					(end 1.905 -0.635)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.27 -1.27) (xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse 16V/2.5A/5.0A_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-LED:LED_Green_0603"
 			(pin_numbers
 				(hide yes)
@@ -5568,12 +5731,6 @@
 		(uuid "44de79b3-7ce0-4cf8-9843-c3fe9c9a9fb6")
 	)
 	(junction
-		(at 39.37 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46602cf7-1c80-4df1-b247-2fcb604a91fc")
-	)
-	(junction
 		(at 48.26 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5598,10 +5755,22 @@
 		(uuid "56758daf-a9dc-4f98-aaa0-cf9d77e0f8db")
 	)
 	(junction
+		(at 35.56 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e320334-d094-47bc-8cfd-d0ad26f41aab")
+	)
+	(junction
 		(at 147.32 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c785642-ace6-4a69-bc23-09a577eec354")
+	)
+	(junction
+		(at 39.37 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6de61ec6-b164-437e-a819-79c0e59c251e")
 	)
 	(junction
 		(at 90.17 85.09)
@@ -5620,6 +5789,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76bb64f8-f6f7-4e06-824c-fc5b3af77219")
+	)
+	(junction
+		(at 39.37 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80cda0b8-96b7-4fad-910f-b0c4f3fa7cf2")
 	)
 	(junction
 		(at 91.44 153.67)
@@ -5680,6 +5855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f33c1b04-608e-4223-9b11-54cd9ceff66d")
+	)
+	(junction
+		(at 30.48 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6e183b6-2cd0-4fca-81ac-6e53b8f03bc6")
 	)
 	(junction
 		(at 100.33 85.09)
@@ -5795,16 +5976,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 143.51) (xy 80.01 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "159d8f8d-ff1b-415b-9c5d-0ed69554b102")
-	)
-	(wire
-		(pts
 			(xy 59.69 143.51) (xy 59.69 146.05)
 		)
 		(stroke
@@ -5835,6 +6006,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 137.16) (xy 39.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209410d4-d817-443a-bbbc-3e66bc865ee6")
+	)
+	(wire
+		(pts
 			(xy 109.22 85.09) (xy 109.22 86.36)
 		)
 		(stroke
@@ -5852,6 +6033,26 @@
 			(type default)
 		)
 		(uuid "236623ba-229c-4062-bd99-108eb97de4ba")
+	)
+	(wire
+		(pts
+			(xy 39.37 137.16) (xy 39.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258dd2a9-93da-4c6e-acb0-dbdf1e99d217")
+	)
+	(wire
+		(pts
+			(xy 25.4 137.16) (xy 30.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aa554d-18d8-42a2-8f5c-0c33c05e2514")
 	)
 	(wire
 		(pts
@@ -5882,6 +6083,16 @@
 			(type default)
 		)
 		(uuid "296304e8-1c92-4f7f-ab4e-0d33f1b2de4b")
+	)
+	(wire
+		(pts
+			(xy 30.48 137.16) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a84d2c-7064-47e1-8561-0e5ec39784c9")
 	)
 	(wire
 		(pts
@@ -6055,6 +6266,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 137.16) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e0fd3f-5255-48df-bdfa-a0ac92499dc4")
+	)
+	(wire
+		(pts
 			(xy 85.09 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -6092,6 +6313,16 @@
 			(type default)
 		)
 		(uuid "6b0d7d1b-1ecf-4571-a4e0-b59c6d9c7436")
+	)
+	(wire
+		(pts
+			(xy 30.48 132.08) (xy 30.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef63a83-24bf-4064-95b8-fe340559ada7")
 	)
 	(wire
 		(pts
@@ -6262,6 +6493,16 @@
 			(type default)
 		)
 		(uuid "984b7954-9e95-4411-ac39-88047f487702")
+	)
+	(wire
+		(pts
+			(xy 80.01 137.16) (xy 80.01 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf3d284-e639-4d84-94da-b8aead08688c")
 	)
 	(wire
 		(pts
@@ -6445,6 +6686,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 132.08) (xy 35.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33f15b9-e2b7-412e-8efe-a193baca10d5")
+	)
+	(wire
+		(pts
 			(xy 39.37 147.32) (xy 39.37 143.51)
 		)
 		(stroke
@@ -6585,16 +6836,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 143.51) (xy 39.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8776967-7bbe-49b3-911e-1fb36172c257")
-	)
-	(wire
-		(pts
 			(xy 172.72 82.55) (xy 172.72 86.36)
 		)
 		(stroke
@@ -6622,6 +6863,16 @@
 			(type default)
 		)
 		(uuid "fb1baf74-1b27-4426-a699-fc8675887b45")
+	)
+	(wire
+		(pts
+			(xy 39.37 137.16) (xy 80.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb220cc3-8062-4f4b-94cc-c399fef9700e")
 	)
 	(wire
 		(pts
@@ -7751,6 +8002,97 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A")
+		(at 33.02 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2177041c-e7c6-4d4f-9554-d1aa712fdedd")
+		(property "Reference" "F3"
+			(at 33.02 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16V/2.5A/5.0A"
+			(at 33.02 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Fuse:1812"
+			(at 33.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+			(at 34.036 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse 2A"
+			(at 33.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-14390"
+			(at 33.02 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24e8e587-b247-4939-af09-d6931a6ad475")
+		)
+		(pin "2"
+			(uuid "fdc86bf2-cec0-4812-b9af-331047cefe2d")
+		)
+		(instances
+			(project "battlebot_board"
+				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 74.93 95.25 0)
 		(unit 1)
@@ -8673,6 +9015,97 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A")
+		(at 33.02 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45954211-4205-4fde-8f87-f1f5d5ac627d")
+		(property "Reference" "F1"
+			(at 33.02 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16V/2.5A/5.0A"
+			(at 33.02 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Fuse:1812"
+			(at 33.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+			(at 34.036 142.748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse 2A"
+			(at 33.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-14390"
+			(at 33.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3857eb77-1035-4d47-9d5a-d0d30d69738f")
+		)
+		(pin "2"
+			(uuid "ed21327f-413e-4f44-acba-c2af91a2d2e3")
+		)
+		(instances
+			(project "battlebot_board"
+				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
 		(at 213.36 64.77 0)
 		(unit 1)
@@ -8838,84 +9271,6 @@
 			(project "battlebot_board"
 				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:12V")
-		(at 31.75 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c0f1fb7-d2db-44a8-94f1-414fc238a009")
-		(property "Reference" "#PWR032"
-			(at 35.56 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V"
-			(at 27.94 143.51 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"12V\""
-			(at 38.1 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4463211c-bccd-4fab-9364-5665db1ee4db")
-		)
-		(instances
-			(project "battlebot_board"
-				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9178,8 +9533,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:12V")
-		(at 72.39 143.51 90)
+		(lib_id "PCM_SparkFun-Fuse:Fuse 16V/2.5A/5.0A")
+		(at 33.02 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9188,9 +9543,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61bd80c8-9166-4440-8ebb-d2441534c152")
-		(property "Reference" "#PWR035"
-			(at 76.2 143.51 0)
+		(uuid "5c83ed05-df27-4c8c-99eb-062f12a6d2c8")
+		(property "Reference" "F2"
+			(at 33.02 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16V/2.5A/5.0A"
+			(at 33.02 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Fuse:1812"
+			(at 33.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9200,18 +9575,8 @@
 				)
 			)
 		)
-		(property "Value" "12V"
-			(at 68.58 143.51 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 143.51 0)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+			(at 34.036 147.828 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,8 +9586,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 143.51 0)
+		(property "Description" "Resettable fuse 2A"
+			(at 33.02 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9232,8 +9597,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"12V\""
-			(at 78.74 143.51 0)
+		(property "PROD_ID" "RES-14390"
+			(at 33.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,12 +9609,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "25f124cd-a23c-492a-b4b0-ff16f969ad56")
+			(uuid "a69f9af9-2b07-4387-9a66-76788f8a0762")
+		)
+		(pin "2"
+			(uuid "ee3cbf1f-3303-4486-932f-159a86f4a20c")
 		)
 		(instances
 			(project "battlebot_board"
 				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
-					(reference "#PWR035")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -12184,6 +12552,84 @@
 			(project "battlebot_board"
 				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:12V")
+		(at 25.4 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4c6205-234e-4fb4-9535-277e1d8af912")
+		(property "Reference" "#PWR040"
+			(at 29.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 21.59 137.16 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"12V\""
+			(at 31.75 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38782b7e-734e-4fb8-97f1-57195d4ca883")
+		)
+		(instances
+			(project "battlebot_board"
+				(path "/3124bf7f-3c5d-4753-b283-122548c5d983"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

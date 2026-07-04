@@ -1,0 +1,59 @@
+PCB statistics report
+=====================
+- Date: Fri 03 Jul 2026 07:43:43 PM PDT
+- Project: battlebot_board
+- Board name: battlebot_board
+
+Board
+-----
+- Width: 60.0000 mm
+- Height: 45.0000 mm
+- Area: 2700.00 mm²
+- Front copper area: 346.537 mm²
+- Back copper area: 133.876 mm²
+- Min track clearance: 0.2000 mm
+- Min track width: 0.2000 mm
+- Min drill diameter: 0.3000 mm
+- Board stackup thickness: 1.6000 mm
+
+- Front footprint area: 879.766 mm²
+- Back footprint area: 65.702 mm²
+- Front component density: 32.58 %
+- Back component density: 2.43 %
+Pads
+----
+- Through hole: 14
+- SMD: 147
+- Connector: 0
+- NPTH: 0
+- Castellated: 0
+- Press-fit: 0
+
+Vias
+----
+- Through vias: 59
+- Blind vias: 0
+- Buried vias: 0
+- Micro vias: 30
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          8 |         0 |     8 |
+|SMD:          |         34 |         0 |    34 |
+|Unspecified:  |          2 |         0 |     2 |
+|Total:        |         44 |         0 |    44 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|    59 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    16 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |     In1.Cu |
+|    14 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |     In2.Cu |
+|     6 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 2.1000 mm | 2.1000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 0.9500 mm | 0.9500 mm |    PTH |     Pad |        F.Cu |       B.Cu |
